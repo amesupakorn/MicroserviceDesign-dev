@@ -1,0 +1,45 @@
+# Visual Studio และ Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Output
+bin/
+obj/
+
+# ASP.NET Core Config
+appsettings.Development.json
+secrets.json
+
+# Dependencies
+*.lock
+node_modules/
+packages/
+project.lock.json
+
+# Logs & Debugging
+logs/
+*.log
+*.nlog
+*.dmp
+*.pdb
+
+# Resharper & Rider
+*.DotSettings.user
+*_ReSharper.Caches/
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Coverage & Testing
+TestResults/
+*.coverage
+*.testsettings
+coverage/
+
+# Entity Framework Migrations
+Migrations/
