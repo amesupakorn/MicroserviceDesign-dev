@@ -1,6 +1,10 @@
-public class Member
+namespace BadmintonCourtAPI.Models
 {
-    public int Id { get; set; }
-    public required string Name { get; set; }
-    public int Points { get; set; }
+    public class Member
+    {
+        public int Id { get; set; }
+        public required string Name { get; set; }
+        public int Points { get; set; }
+    }
 }
+

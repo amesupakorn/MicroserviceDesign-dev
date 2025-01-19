@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-
+using BadmintonCourtAPI.Models;
 [ApiController]
 [Route("api/court")]
 public class CourtController : ControllerBase
